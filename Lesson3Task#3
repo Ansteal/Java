@@ -1,0 +1,25 @@
+package ansteal;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Определить количество дней в году, который вводит пользователь. В високосном годе - 366 дней, тогда как в обычном 365.
+    Scanner sc=new Scanner(System.in);
+    int year;
+    System.out.println("Введите год");
+    year=sc.nextInt();
+    
+    if ((year%4 !=0) || year %100==0 && (year%400 !=0 )) {
+    	 System.out.println("Это не высокосный год");
+    }
+    else if (year % 100 != 0 && year % 400 == 0) {
+        System.out.println("Это высокосный год.");
+    } else{
+        System.out.println("Это высокосный год.");
+    }
+
+}
+
+}
