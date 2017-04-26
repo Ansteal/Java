@@ -1,0 +1,22 @@
+package ansteal;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    double r=4;
+    double x;
+    double y;
+    System.out.println("Введите x ");
+    x=sc.nextDouble();
+    System.out.println("Введите y ");
+    y=sc.nextDouble();
+    if ((x*x)+(y*y)<=(r*r)) {
+    	System.out.println("Точка лежит внутри круга");
+    } else {
+    	System.out.println("Точка не лежит внутри круга");
+    	
+    }
+	}
+}
