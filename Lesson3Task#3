@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-		// Определить количество дней в году, который вводит пользователь. В високосном годе - 366 дней, тогда как в обычном 365.
+    public static void main(String[] args) {
+    // Определить количество дней в году, который вводит пользователь. В високосном годе - 366 дней, тогда как в обычном 365.
     Scanner sc=new Scanner(System.in);
     int year;
     System.out.println("Введите год");
@@ -19,7 +19,5 @@ public class Main {
     } else{
         System.out.println("Это высокосный год.");
     }
-
-}
-
-}
+    }
+    }
